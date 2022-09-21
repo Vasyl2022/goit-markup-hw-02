@@ -1,0 +1,160 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header -----------------*/
+
+.header {
+  background-color: gray;
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.accent {
+  color: var(--primary-text-color);
+}
+
+.header-nav-link {
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.contact-email,
+.contact-phone {
+  font-weight: 400;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-email-link:hover,
+.contact-email-link:focus {
+  color: #188ce8;
+}
+
+.contact-phone-link:hover,
+.contact-phone-link:focus {
+  color: #188ce8;
+}
+
+/* hero -----------------*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 1.36;
+  color: var(--white-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: #188ce8;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+
+.advences-minititle {
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.advences-text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.our-work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+
+.our-team-minititle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.our-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+.address {
+  line-height: 1.71;
+  color: var(--white-text-color);
+}
+
+.contact-email-link,
+.contact-phone-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio -----------------*/
+
+.examples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+}
+
+.examples-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
+
+.examples-btn:hover,
+.examples-btn:focus {
+  color: #188ce8;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+
+.footer {
+  background-color: gray;
+}
