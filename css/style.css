@@ -178,3 +178,7 @@
 .footer {
   background-color: #2f303a;
 }
+
+.logo-down {
+  color: var(--white-text-color);
+}
