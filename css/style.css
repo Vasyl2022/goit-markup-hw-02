@@ -47,6 +47,10 @@
   color: var(--accent-color);
 }
 
+.header-nav-link.current {
+  color: #2196f3;
+}
+
 .contact-email-link,
 .contact-phone-link {
   font-weight: 400;
