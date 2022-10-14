@@ -201,3 +201,13 @@
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.contact-email-link-footer:hover,
+.contact-email-link-footer:focus {
+  color: #188ce8;
+}
+
+.contact-phone-link-footer:hover,
+.contact-phone-link-footer:focus {
+  color: #188ce8;
+}
